@@ -6,7 +6,7 @@ package cn.lambochen.leetcode.primaryalgorithm;
  *
  * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/
  **/
-public class TheBestTime2BuyAndSellStocks2 {
+public class MaxProfit2 {
 
     /**
      * 买卖股票的最佳时期 2

@@ -8,7 +8,7 @@ import java.util.Arrays;
  * <p>
  * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2y0c2/
  **/
-public class TheIntersectionOfTwoArrays {
+public class Intersect2 {
 
     /**
      * 两个数组的交集 2
@@ -66,7 +66,7 @@ public class TheIntersectionOfTwoArrays {
 
 
     public static void main(String[] args) {
-        TheIntersectionOfTwoArrays handler = new TheIntersectionOfTwoArrays();
+        Intersect2 handler = new Intersect2();
         int[] nums1 = new int[]{1, 2, 2, 1};
         int[] nums2 = new int[]{2, 2};
         System.out.println(Arrays.toString(handler.intersect(nums1, nums2)));

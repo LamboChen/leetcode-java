@@ -9,7 +9,7 @@ import java.util.Set;
  *
  * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x248f5/
  **/
-public class ThereAreDuplicateElements {
+public class ContainsDuplicate {
 
     /**
      * 存在重复元素

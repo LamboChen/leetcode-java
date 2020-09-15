@@ -6,7 +6,7 @@ package cn.lambochen.leetcode.primaryalgorithm;
  * <p>
  * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x21ib6/
  **/
-public class NumbersThatAppearOnlyOnce {
+public class SingleNumber {
 
     /**
      * 只出现一次的数字
@@ -23,7 +23,7 @@ public class NumbersThatAppearOnlyOnce {
     }
 
     public static void main(String[] args) {
-        NumbersThatAppearOnlyOnce handler = new NumbersThatAppearOnlyOnce();
+        SingleNumber handler = new SingleNumber();
 
         int[] nums = new int[]{2, 2, 1};
         System.out.println(handler.singleNumber(nums));

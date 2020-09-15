@@ -8,7 +8,7 @@ import java.util.Arrays;
  * <p>
  * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/
  **/
-public class RemoveDuplicateItems4SortedArray {
+public class RemoveDuplicates {
 
     /**
      * 删除排序数组中的重复项
@@ -41,7 +41,7 @@ public class RemoveDuplicateItems4SortedArray {
     }
 
     public static void main(String[] args) {
-        RemoveDuplicateItems4SortedArray handler = new RemoveDuplicateItems4SortedArray();
+        RemoveDuplicates handler = new RemoveDuplicates();
 
         int[] nums = new int[]{1, 1, 2};
         System.out.println(handler.removeDuplicates(nums));
