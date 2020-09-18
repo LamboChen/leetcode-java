@@ -17,23 +17,28 @@ public class Reverse {
      * @return
      */
     public int reverse(int x) {
+        // 特殊情况处理，溢出
         if (x == Integer.MIN_VALUE) {
             return 0;
         }
 
+        // 符号判断
         boolean flag = x < 0;
         x = flag ? -x : x;
 
+        // 整数反转
         long res = 0;
         while (x != 0) {
             res = res * 10 + x % 10;
             x /= 10;
         }
 
+        // 反转结果，溢出情况处理
         if (res > Integer.MAX_VALUE) {
             return 0;
         }
 
+        // 符号处理
         return flag ? -(int) res : (int) res;
     }
 
