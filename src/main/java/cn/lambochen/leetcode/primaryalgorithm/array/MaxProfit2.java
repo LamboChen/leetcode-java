@@ -1,4 +1,4 @@
-package cn.lambochen.leetcode.primaryalgorithm;
+package cn.lambochen.leetcode.primaryalgorithm.array;
 
 /**
  * @author lambo.chen.2306@gmail.com

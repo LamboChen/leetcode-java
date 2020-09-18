@@ -1,4 +1,4 @@
-package cn.lambochen.leetcode.primaryalgorithm;
+package cn.lambochen.leetcode.primaryalgorithm.array;
 
 import java.util.HashSet;
 import java.util.Set;
