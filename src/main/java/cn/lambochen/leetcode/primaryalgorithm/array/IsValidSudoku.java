@@ -112,7 +112,7 @@ public class IsValidSudoku {
 
         IsValidSudoku handler = new IsValidSudoku();
 
-        handler.isValidSudoku(boards);
+        System.out.println(handler.isValidSudoku(boards));
 
     }
 
