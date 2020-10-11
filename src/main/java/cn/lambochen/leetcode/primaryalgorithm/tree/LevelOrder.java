@@ -15,7 +15,7 @@ public class LevelOrder {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
-            return null;
+            return new LinkedList<>();
         }
         List<List<Integer>> result = new LinkedList<>();
 
